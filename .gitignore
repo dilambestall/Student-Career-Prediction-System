@@ -5,11 +5,14 @@ __pycache__/
 # Ignore Jupyter checkpoints
 .ipynb_checkpoints/
 
-# Ignore data files that are too large
+# Ignore virtual environments
+venv/
+venvda/
+
+# Ignore data files but keep placeholders
 data/raw/*
 data/cleaned/*
 
-# But keep sample small files if needed
-!data/raw/sample.csv
-venvda/
-venv/
+
+# Keep all .gitkeep files
+!*.gitkeep

@@ -1,18 +1,53 @@
-# Ignore Python cache
+# ==========================
+# Python cache & build files
+# ==========================
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
 
-# Ignore Jupyter checkpoints
-.ipynb_checkpoints/
-
-# Ignore virtual environments
+# ==========================
+# Virtual environments
+# ==========================
 venv/
 venvda/
+.env/
+.venv/
 
-# Ignore data files but keep placeholders
+# ==========================
+# Jupyter Notebook checkpoints
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# VS Code settings
+# ==========================
+.vscode/
+*.code-workspace
+
+# ==========================
+# Data folders
+# ==========================
 data/raw/*
 data/cleaned/*
-!data/.gitkeep
+!data/raw/.gitkeep
+!data/cleaned/.gitkeep
 
+# ==========================
+# Notebook, reports, and source placeholders
+# ==========================
+notebooks/*
+reports/*
+src/*
+!notebooks/.gitkeep
+!reports/.gitkeep
+!src/.gitkeep
+
+# ==========================
 # Keep all .gitkeep files
+# ==========================
 !*.gitkeep

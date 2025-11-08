@@ -12,7 +12,7 @@ venvda/
 # Ignore data files but keep placeholders
 data/raw/*
 data/cleaned/*
-
+!data/.gitkeep
 
 # Keep all .gitkeep files
 !*.gitkeep

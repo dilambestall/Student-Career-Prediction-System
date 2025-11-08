@@ -1,0 +1,15 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore data files that are too large
+data/raw/*
+data/cleaned/*
+
+# But keep sample small files if needed
+!data/raw/sample.csv
+venvda/
+venv/

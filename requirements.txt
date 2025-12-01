@@ -1,6 +1,7 @@
 # Core libraries
 numpy
 pandas
+scipy
 
 # Visualization
 matplotlib
@@ -17,6 +18,9 @@ notebook
 # Optional: Model evaluation & export
 joblib
 
-# (Optional) Interactive visualization or dashboarding
+# Optional: Interactive visualization / dashboarding
 plotly
 streamlit
+
+# Excel support (if needed)
+openpyxl

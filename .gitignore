@@ -29,13 +29,6 @@ venvda/
 .vscode/
 *.code-workspace
 
-# ==========================
-# Data folders
-# ==========================
-data/raw/*
-data/cleaned/*
-!data/raw/.gitkeep
-!data/cleaned/.gitkeep
 
 # ==========================
 # Notebook, reports, and source placeholders

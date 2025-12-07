@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7dd29aba-52bd-4872-b245-3912ffa39fd7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/data/cleaned/processed_raw_CareerMapping.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/cleaned/processed_raw_CareerMapping.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cleaned/processed_raw_CareerMapping1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/cleaned/processed_raw_CareerMapping1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cleaned/processed_raw_with_scores.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/cleaned/processed_raw_CareerMapping_with_scores.csv" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="nhanh-tam-copy-code" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rolandwalker2505&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dilambestall/Student-Career-Prediction-System.git&quot;,
+    &quot;accountId&quot;: &quot;df1bc495-5eb3-45ca-9852-26f44e451b37&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="35ahpdmdjePTsjVQSAsON5BJEWn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.XGBoost.executor": "Run",
+    "Python.code.executor": "Run",
+    "Python.filtered.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/rolandtran/Documents/Repos/Student-Career-Prediction-System/notebooks/CareerMapping",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/notebooks/CareerMapping" />
+      <recent name="$PROJECT_DIR$/notebooks/CareerMapping1" />
+      <recent name="$PROJECT_DIR$/data/cleaned" />
+      <recent name="$PROJECT_DIR$/notebooks" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/notebooks/CareerMapping" />
+      <recent name="$PROJECT_DIR$/data/cleaned/old" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-PY-252.25557.178" />
+        <option value="bundled-python-sdk-ce6832f46686-7b97d883f26b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.25557.178" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7dd29aba-52bd-4872-b245-3912ffa39fd7" name="Changes" comment="" />
+      <created>1763354273309</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763354273309</updated>
+      <workItem from="1763354274550" duration="873000" />
+      <workItem from="1763381710947" duration="4332000" />
+      <workItem from="1763515647201" duration="4154000" />
+      <workItem from="1764407924502" duration="12837000" />
+      <workItem from="1764578125831" duration="38000" />
+      <workItem from="1764667562776" duration="9802000" />
+      <workItem from="1764748336387" duration="608000" />
+      <workItem from="1764824591016" duration="6155000" />
+      <workItem from="1764925607075" duration="1562000" />
+      <workItem from="1764947035488" duration="888000" />
+      <workItem from="1765103933025" duration="1239000" />
+      <workItem from="1765118282181" duration="13000" />
+      <workItem from="1765118308803" duration="5931000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Student_Career_Prediction_System$code.coverage" NAME="code Coverage Results" MODIFIED="1763517031138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/Student_Career_Prediction_System$XGBoost.coverage" NAME="XGBoost Coverage Results" MODIFIED="1763519018048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/Student_Career_Prediction_System$filtered.coverage" NAME="filtered Coverage Results" MODIFIED="1764421933963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notebooks" />
+  </component>
+</project>

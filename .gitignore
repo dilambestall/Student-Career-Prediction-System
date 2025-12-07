@@ -34,6 +34,8 @@ venvda/
 # Notebook, reports, and source placeholders
 # ==========================
 notebooks/*
+!notebooks/*.ipynb
+
 reports/*
 src/*
 !notebooks/.gitkeep

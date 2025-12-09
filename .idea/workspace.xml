@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dd29aba-52bd-4872-b245-3912ffa39fd7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/check_data.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cleaned/old/processed_raw_CareerMapping1_with_scores.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/mapping/role_label_encoder.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/CareerMapping1/Random Forest.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/CareerMapping1/Random Forest.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/CareerMapping1/SVM.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/CareerMapping1/SVM.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,39 +49,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.XGBoost.executor": "Run",
-    "Python.code.executor": "Run",
-    "Python.filtered.executor": "Run",
-    "Python.test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/rolandtran/Documents/Repos/Student-Career-Prediction-System/notebooks/SMOTE/CareerMapping",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.XGBoost.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code.executor&quot;: &quot;Run&quot;,
+    &quot;Python.filtered.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rolandtran/Documents/Repos/Student-Career-Prediction-System/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/notebooks/CareerMapping" />
       <recent name="$PROJECT_DIR$/notebooks/SMOTE/CareerMapping" />
       <recent name="$PROJECT_DIR$/notebooks/SMOTE" />
-      <recent name="$PROJECT_DIR$/notebooks/CareerMapping" />
       <recent name="$PROJECT_DIR$/notebooks/CareerMapping1" />
-      <recent name="$PROJECT_DIR$/data/cleaned" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/notebooks/CareerMapping/old" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/notebooks/CareerMapping" />
       <recent name="$PROJECT_DIR$/data/cleaned/old" />
@@ -124,6 +119,8 @@
       <workItem from="1765161863334" duration="7015000" />
       <workItem from="1765198224581" duration="2522000" />
       <workItem from="1765208364117" duration="7238000" />
+      <workItem from="1765272417842" duration="12102000" />
+      <workItem from="1765297190855" duration="307000" />
     </task>
     <servers />
   </component>

@@ -13,8 +13,9 @@ This project predicts suitable career paths for students in the Computer Science
 - Jupyter Notebook
 - Git & GitHub
 
-## 📂 Project Structure
+## 📁 Project Structure
 
+```text
 STUDENT_CAREER/
 │
 ├── data/

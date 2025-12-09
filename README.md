@@ -29,8 +29,7 @@ STUDENT_CAREER/
 │
 ├── reports/
 │   ├── BI.pbix             # Power BI report
-│   └── Mapping.ipynb       # Notebook used for report generation
-│
+│   
 ├── src/                    # Source code (training, preprocessing, utils)
 │   └── ...
 │
@@ -41,9 +40,9 @@ STUDENT_CAREER/
 
 
 ## 🚀 How to Run
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/<your-username>/student-career-prediction-system.git
+# 1. Clone this repository
+git clone https://github.com/<your-username>/student-career-prediction-system.git
 
-## Install dependencies 
+# 2. Install dependencies
 pip install -r requirements.txt
+

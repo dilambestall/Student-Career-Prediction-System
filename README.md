@@ -37,6 +37,7 @@ STUDENT_CAREER/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+```
 
 
 ## 🚀 How to Run

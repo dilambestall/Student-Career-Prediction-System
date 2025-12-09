@@ -40,10 +40,6 @@ STUDENT_CAREER/
 └── requirements.txt
 
 
-
-
-
-
 ## 🚀 How to Run
 1. Clone this repository:
    ```bash

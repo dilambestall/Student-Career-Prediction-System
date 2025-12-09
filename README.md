@@ -16,12 +16,27 @@ This project predicts suitable career paths for students in the Computer Science
 ## 📂 Project Structure
 
 STUDENT_CAREER/
-├── data/ # Dataset (roo_data.csv)
-├── notebooks/ # Jupyter notebooks
-├── src/ # Model training scripts
+│
+├── data/
+│ ├── cleaned/ # Cleaned dataset
+│ ├── mapping/ # Dataset used for career mapping
+│ └── raw/ # Original raw data
+│
+├── notebooks/
+│ ├── Mapping.ipynb # Main notebook for career mapping
+│ └── Mapping1.ipynb # Additional mapping notebook
+│
+├── reports/
+│ ├── BI.pbix # Power BI report
+│ └── Mapping.ipynb # Notebook used for report generation
+│
+├── src/
+│ └── ... # Source code (training, preprocessing, utils)
+│
+├── venvda/ # Virtual environment (ignored by Git)
+├── .gitignore
 ├── README.md
 └── requirements.txt
-
 
 ## 🚀 How to Run
 1. Clone this repository:

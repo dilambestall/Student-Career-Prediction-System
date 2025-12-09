@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="7dd29aba-52bd-4872-b245-3912ffa39fd7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cleaned/scaled_CareerMapping.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/cleaned/old/scaled_CareerMapping.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cleaned/scaled_CareerMapping1_with_scores.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/cleaned/old/scaled_CareerMapping1_with_scores.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cleaned/scaled_CareerMapping_with_scores.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/cleaned/old/scaled_CareerMapping_with_scores.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Mapping.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Mapping.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Mapping1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Mapping1.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +124,7 @@
       <workItem from="1765198224581" duration="2522000" />
       <workItem from="1765208364117" duration="7238000" />
       <workItem from="1765272417842" duration="12102000" />
-      <workItem from="1765297190855" duration="307000" />
+      <workItem from="1765297190855" duration="1990000" />
     </task>
     <servers />
   </component>

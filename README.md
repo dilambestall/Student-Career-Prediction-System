@@ -40,9 +40,10 @@ STUDENT_CAREER/
 
 
 ## 🚀 How to Run
-# 1. Clone this repository
+
+```bash
+# Clone this repository
 git clone https://github.com/<your-username>/student-career-prediction-system.git
 
-# 2. Install dependencies
+# Install dependencies
 pip install -r requirements.txt
-

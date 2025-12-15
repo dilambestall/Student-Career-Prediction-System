@@ -66,14 +66,14 @@ We trained models on **both** processed datasets to evaluate their realism and r
 
 After preprocessing, we trained and evaluated multiple machine learning models on our selected dataset (**`processed_raw_CareerMapping1_with_scores.csv`**). The table below summarizes the **Test Accuracy**, which measures how well each model generalizes to new, unseen data.
 
-| Algorithm | Test Accuracy | Status |
-| :--- | :--- | :--- |
-| Decision Tree | 79.1% | |
-| **Random Forest** | **78.2%** | |
-| XGBoost | 77.4% | |
-| SVM | 73.6% | |
-| KNN | 31.6% | |
-| Naïve Bayes | 19.0% | |
+| Algorithm | Test Accuracy |
+| :--- | :--- |
+| Decision Tree | 79.1% |
+| **Random Forest** | **78.2%** |
+| XGBoost | 77.4% |
+| SVM | 73.6% |
+| KNN | 31.6% |
+| Naïve Bayes | 19.0% |
 
 ### Model Selection: Why Random Forest?
 

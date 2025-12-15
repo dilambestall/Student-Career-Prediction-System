@@ -38,7 +38,7 @@ STUDENT_CAREER/
 
 To build a reliable system, we analyzed and evaluated datasets sourced from the open-source repository **[Career Prediction Using Machine Learning](https://github.com/TuhinPatra633/Career-Prediction-Using-Machine-Learning)** by **TuhinPatra633**.
 
-**1. Feature Engineering & Preprocessing**
+### 1. Feature Engineering & Preprocessing**
 We did not use the raw data directly. Instead, we implemented a robust preprocessing pipeline to clean the data and engineer new features (calculating aggregated `tech_score` and `soft_skill_score`).
 
 We applied this identical pipeline to both raw datasets to generate two **processed candidates** for benchmarking:
@@ -51,7 +51,7 @@ We applied this identical pipeline to both raw datasets to generate two **proces
 
 > **Note:** These processed files are stored in the `data/cleaned/` directory and include the normalized scores required for our specific model architecture.
 
-**2. Comparative Experiment & Selection**
+### 2. Comparative Experiment & Selection**
 We trained models on **both** processed datasets to evaluate their realism and reliability:
 
 * **Experiment A (using `processed_raw_CareerMapping_with_scores.csv`):**
@@ -63,16 +63,31 @@ We trained models on **both** processed datasets to evaluate their realism and r
 
 
 ## Model Performance
+
 After preprocessing, we trained and evaluated multiple machine learning models on our selected dataset (**`processed_raw_CareerMapping1_with_scores.csv`**). The table below summarizes the **Test Accuracy**, which measures how well each model generalizes to new, unseen data.
 
 | Algorithm | Test Accuracy | Status |
 | :--- | :--- | :--- |
 | Decision Tree | 79.1% | |
-| **Random Forest** | **78.2%** | 🏆 **Selected** |
+| **Random Forest** | **78.2%** | |
 | XGBoost | 77.4% | |
 | SVM | 73.6% | |
 | KNN | 31.6% | |
 | Naïve Bayes | 19.0% | |
+
+### Model Selection: Why Random Forest?
+
+Although **Decision Tree** models may occasionally show higher accuracy on specific test splits, we deliberately selected **Random Forest** for the final deployment. This decision is based on two critical factors for a real-world application:
+
+1.  **Generalization vs. Overfitting:**
+    * **Decision Trees** tend to create overly complex structures that "memorize" the noise in the training data (High Variance). While this yields high training scores, it often leads to poor performance on new, unseen user data.
+    * **Random Forest** is an **Ensemble method** (Bagging). By aggregating predictions from multiple trees, it cancels out individual errors and focuses on the underlying patterns, ensuring the model works well for diverse student profiles.
+
+2.  **Stability & Robustness:**
+    * In a production Web App, user inputs can be unpredictable. Random Forest is significantly **more stable** than a single Decision Tree. Small changes in input data do not drastically flip the prediction, making the system more reliable for users.
+
+> **Verdict:** We prioritize **Reliability** and **Real-world Performance** over raw Accuracy on paper. Random Forest offers the best balance for a robust Career Prediction System.
+
 
 ## Deployment Decision
 Based on the comparative analysis above, the **Random Forest Classifier** demonstrated the highest stability and accuracy (~89%).

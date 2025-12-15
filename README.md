@@ -58,7 +58,7 @@ We trained models on **both** processed datasets to evaluate their realism and r
     * *Result:* Models achieved ~100% accuracy.
     * *Verdict:* **Rejected**. The perfect score indicates overfitting/synthetic patterns, making it unsuitable for real-world predictions.
 * **Experiment B (using `processed_raw_CareerMapping1_with_scores.csv`):**
-    * *Result:* Models achieved realistic accuracy (~89%).
+    * *Result:* Models achieved realistic accuracy (~79%).
     * *Verdict:* **Selected**. This dataset reflects the complexity of real user profiles, ensuring the app provides genuine advice rather than memorized answers.
 
 
@@ -90,7 +90,7 @@ Although **Decision Tree** models may occasionally show higher accuracy on speci
 
 
 ## Deployment Decision
-Based on the comparative analysis above, the **Random Forest Classifier** demonstrated the highest stability and accuracy (~89%).
+Based on the comparative analysis above, the **Random Forest Classifier** demonstrated the highest stability and accuracy (~79%).
 
 * **Final Training:** We re-trained the Random Forest model on the full `processed_raw_CareerMapping1_with_scores.csv` dataset to maximize its learning.
 * **Export:** The trained model was serialized and saved as **`career_prediction_model.pkl`**.

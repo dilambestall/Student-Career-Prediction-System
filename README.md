@@ -15,8 +15,10 @@ STUDENT_CAREER/
 │   └── raw/                # Original raw data
 │
 ├── notebooks/
-│   ├── CareerMapping/           # Experiments on the initial dataset
+│   ├── old/
 │   ├── CareerMapping1/          # Experiments on the revised dataset
+│   ├── Mapping.ipynb
+│   └── Mapping1.ipynb
 │
 ├── reports/
 │   ├── BI.pbix             # Power BI report

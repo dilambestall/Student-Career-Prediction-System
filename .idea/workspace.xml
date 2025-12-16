@@ -6,11 +6,37 @@
   <component name="ChangeListManager">
     <list default="true" id="7dd29aba-52bd-4872-b245-3912ffa39fd7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cleaned/scaled_CareerMapping.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/cleaned/old/scaled_CareerMapping.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cleaned/scaled_CareerMapping1_with_scores.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/cleaned/old/scaled_CareerMapping1_with_scores.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cleaned/scaled_CareerMapping_with_scores.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/cleaned/old/scaled_CareerMapping_with_scores.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/Mapping.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Mapping.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/Mapping1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Mapping1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CareerMapping/Decision Tree.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CareerMapping/GridSearchCV.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CareerMapping/KNN.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CareerMapping/Naive Bayes.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CareerMapping/Random Forest.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CareerMapping/SVM.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CareerMapping/XGBoost.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CareerMapping1/Decision Tree.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/CareerMapping1/Decision Tree.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CareerMapping1/GridSearchCV.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/CareerMapping1/GridSearchCV.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CareerMapping1/KNN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/CareerMapping1/KNN.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CareerMapping1/Naive Bayes.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/CareerMapping1/Naive Bayes.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CareerMapping1/Random Forest.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/CareerMapping1/Random Forest.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CareerMapping1/SVM.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/CareerMapping1/SVM.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CareerMapping1/XGBoost.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/CareerMapping1/XGBoost.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/SMOTE (just test)/CareerMapping/Decision Tree.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/SMOTE (just test)/CareerMapping/GridSearchCV.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/SMOTE (just test)/CareerMapping/KNN.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/SMOTE (just test)/CareerMapping/Naive Bayes.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/SMOTE (just test)/CareerMapping/Random Forest.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/SMOTE (just test)/CareerMapping/SVM.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/SMOTE (just test)/CareerMapping/XGBoost.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/SMOTE (just test)/CareerMapping1/Decision Tree.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/SMOTE (just test)/CareerMapping1/GridSearchCV.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/SMOTE (just test)/CareerMapping1/KNN.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/SMOTE (just test)/CareerMapping1/Naive Bayes.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/SMOTE (just test)/CareerMapping1/Random Forest.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/SMOTE (just test)/CareerMapping1/SVM.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/SMOTE (just test)/CareerMapping1/XGBoost.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/career_prediction_model.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scaler.pkl" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,10 +112,10 @@
       <recent name="$PROJECT_DIR$/notebooks/CareerMapping1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/cleaned/old" />
       <recent name="$PROJECT_DIR$/notebooks/CareerMapping/old" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/notebooks/CareerMapping" />
-      <recent name="$PROJECT_DIR$/data/cleaned/old" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -124,7 +150,9 @@
       <workItem from="1765198224581" duration="2522000" />
       <workItem from="1765208364117" duration="7238000" />
       <workItem from="1765272417842" duration="12102000" />
-      <workItem from="1765297190855" duration="1990000" />
+      <workItem from="1765297190855" duration="3187000" />
+      <workItem from="1765797242205" duration="2507000" />
+      <workItem from="1765898221448" duration="7398000" />
     </task>
     <servers />
   </component>
